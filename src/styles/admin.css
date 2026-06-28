@@ -5,34 +5,166 @@
 }
 
 .admin-container h1{
+    text-align:center;
     color:#2563eb;
     margin-bottom:30px;
 }
 
 .admin-container h2{
-    margin-top:40px;
-    margin-bottom:15px;
+    margin:40px 0 15px;
+    color:#333;
+}
+
+/* ========================= */
+/* Responsive Table */
+/* ========================= */
+
+.table-container{
+    width:100%;
+    overflow-x:auto;
+    margin-bottom:35px;
+    border-radius:12px;
+}
+
+.table-container::-webkit-scrollbar{
+    height:8px;
+}
+
+.table-container::-webkit-scrollbar-thumb{
+    background:#2563eb;
+    border-radius:20px;
 }
 
 table{
     width:100%;
+    min-width:1100px;
     border-collapse:collapse;
-    background:white;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
 table th,
 table td{
-    border:1px solid #ddd;
-    padding:12px;
+    padding:14px;
+    border:1px solid #e5e7eb;
     text-align:left;
+    white-space:nowrap;
 }
 
 table th{
     background:#2563eb;
     color:white;
+    font-weight:600;
 }
 
 table tr:nth-child(even){
-    background:#f9f9f9;
+    background:#f9fafb;
+}
+
+table tr:hover{
+    background:#eef5ff;
+}
+
+/* ========================= */
+/* Status */
+/* ========================= */
+
+.status{
+    padding:6px 14px;
+    border-radius:20px;
+    color:white;
+    font-size:13px;
+    font-weight:600;
+}
+
+.approved{
+    background:#16a34a;
+}
+
+.rejected{
+    background:#dc2626;
+}
+
+.pending{
+    background:#f59e0b;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width:992px){
+
+    .admin-container{
+        padding:30px;
+    }
+
+    .admin-container h1{
+        font-size:30px;
+    }
+
+    .admin-container h2{
+        font-size:24px;
+    }
+
+    table{
+        min-width:1000px;
+    }
+
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width:768px){
+
+    .admin-container{
+        padding:20px;
+    }
+
+    .admin-container h1{
+        font-size:26px;
+    }
+
+    .admin-container h2{
+        font-size:20px;
+    }
+
+    table{
+        min-width:950px;
+    }
+
+    table th,
+    table td{
+        padding:10px;
+        font-size:14px;
+    }
+
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+
+@media (max-width:480px){
+
+    .admin-container{
+        padding:15px;
+    }
+
+    .admin-container h1{
+        font-size:22px;
+    }
+
+    .admin-container h2{
+        font-size:18px;
+    }
+
+    table{
+        min-width:900px;
+    }
+
 }

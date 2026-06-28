@@ -8,7 +8,7 @@ function Footer() {
         Developed By Abdul Ali
       </div>
       <div>
-        © 2026 BookAppointment.com | All Rights Reserved
+        © 2026 BookAppointment.In | All Rights Reserved
       </div>
 
     </footer>

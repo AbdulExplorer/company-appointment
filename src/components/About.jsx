@@ -6,10 +6,10 @@ function About() {
 
       <div className="about-content">
 
-        <h2>About AppointmentHub</h2>
+        <h2>About BookAppointment.In</h2>
 
         <p>
-          AppointmentHub is a modern appointment management platform that
+          BookAppointment.In is a modern appointment management platform that
           helps users book appointments online without waiting in long queues.
         </p>
 

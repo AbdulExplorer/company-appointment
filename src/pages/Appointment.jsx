@@ -68,7 +68,7 @@ function Appointment() {
                     onSubmit={handleSubmit}
                 >
 
-                    <h2>Book Free Consultation</h2>
+                    <h2>Book Appointment</h2>
 
 
                     <input

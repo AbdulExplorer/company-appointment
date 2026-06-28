@@ -28,7 +28,7 @@ function Navbar() {
         <nav className="navbar">
 
             <div className="logo">
-                <Link to="/">BookAppointment.com</Link>
+                <Link to="/">BookAppointment.In</Link>
             </div>
 
             {/* Hamburger */}
