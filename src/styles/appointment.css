@@ -1,0 +1,80 @@
+.appointment-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f5f7fa;
+    margin-top: -25px;  
+    /* padding:5px; */
+}
+
+.appointment-form{
+    width:500px;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.appointment-form h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#2563eb;
+}
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #2563eb;
+    border-radius:6px;
+}
+
+.appointment-form textarea{
+    resize:none;
+    height:100px;
+}
+
+.appointment-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2563eb;
+    background: #fff;
+    border: 1px solid #2563eb;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    z-index: 1;
+}
+
+/* Animated background */
+.appointment-form button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #2563eb, #38bdf8);
+    transition: width 0.4s ease;
+    z-index: -1;
+}
+
+/* Hover Effect */
+.appointment-form button:hover::before {
+    width: 100%;
+}
+
+.appointment-form button:hover {
+    color: #fff;
+}
+
+/* Click Effect */
+.appointment-form button:active {
+    transform: scale(0.98);
+}

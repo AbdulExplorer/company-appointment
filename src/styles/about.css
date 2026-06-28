@@ -1,0 +1,91 @@
+.about{
+    padding:200px 100px;
+    background:#fff;
+}
+
+.about-content{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:25px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+    color:#555;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width:992px){
+
+    .about{
+        padding:100px 60px;
+    }
+
+    .about h2{
+        font-size:34px;
+    }
+
+    .about p{
+        font-size:17px;
+    }
+
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width:768px){
+
+    .about{
+        padding:80px 25px;
+    }
+
+    .about-content{
+        max-width:100%;
+    }
+
+    .about h2{
+        font-size:30px;
+        margin-bottom:20px;
+    }
+
+    .about p{
+        font-size:16px;
+        line-height:1.7;
+        text-align:justify;
+    }
+
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+
+@media (max-width:480px){
+
+    .about{
+        padding:60px 20px;
+    }
+
+    .about h2{
+        font-size:26px;
+    }
+
+    .about p{
+        font-size:15px;
+        line-height:1.6;
+    }
+
+}
