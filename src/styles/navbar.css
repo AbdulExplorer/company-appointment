@@ -73,9 +73,7 @@
     background:#1d4ed8;
 }
 
-/* ============================= */
-/* Logout Button */
-/* ============================= */
+
 
 .logout-btn{
     background:#ef4444;
@@ -92,9 +90,7 @@
     background:#dc2626;
 }
 
-/* ============================= */
-/* Welcome */
-/* ============================= */
+
 
 .welcome-user{
     color:#2563eb;
@@ -102,9 +98,6 @@
     padding-bottom: 5px;
 }
 
-/* ============================= */
-/* Hamburger Icon */
-/* ============================= */
 
 .menu-icon{
     display:none;
@@ -119,7 +112,7 @@
 
     .navbar{
         padding:15px 20px;
-        position:relative;
+        /* position:relative; */
     }
 
     .logo a{

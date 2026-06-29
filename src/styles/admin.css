@@ -15,9 +15,7 @@
     color:#333;
 }
 
-/* ========================= */
-/* Responsive Table */
-/* ========================= */
+
 
 .table-container{
     width:100%;
@@ -67,9 +65,6 @@ table tr:hover{
     background:#eef5ff;
 }
 
-/* ========================= */
-/* Status */
-/* ========================= */
 
 .status{
     padding:6px 14px;
@@ -91,9 +86,6 @@ table tr:hover{
     background:#f59e0b;
 }
 
-/* ========================= */
-/* Tablet */
-/* ========================= */
 
 @media (max-width:992px){
 
@@ -114,10 +106,6 @@ table tr:hover{
     }
 
 }
-
-/* ========================= */
-/* Mobile */
-/* ========================= */
 
 @media (max-width:768px){
 
@@ -145,9 +133,6 @@ table tr:hover{
 
 }
 
-/* ========================= */
-/* Small Mobile */
-/* ========================= */
 
 @media (max-width:480px){
 
